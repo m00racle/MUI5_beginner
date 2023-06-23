@@ -1,13 +1,24 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* 
+The CSS code you provided sets styles for all elements in the HTML document using the universal selector `*`. Let's break down each property:
+
+1. `margin: 0;`
+   This sets the margin of all elements to 0. Margins are the space around an element, and setting them to 0 removes any default margin that may be applied by the browser.
+
+2. `padding: 0;`
+   This sets the padding of all elements to 0. Padding is the space inside an element, and setting it to 0 ensures that there is no extra space inside the elements.
+
+3. `box-sizing: border-box;`
+   The `box-sizing` property determines how the total width and height of an element is calculated. By setting it to `border-box`, the width and height of an element includes the content, padding, and border. This ensures that the specified width and height properties of an element are applied as intended.
+
+4. `font-family: "Roboto";`
+   This sets the font family of all elements to "Roboto". The font-family property specifies the preferred font for text inside an element. In this case, "Roboto" is a popular font choice that will be applied to all elements.
+
+By applying these styles to all elements using the universal selector `*`, you are essentially resetting the default styles and creating a consistent starting point for your CSS styles within your HTML document.
+*/
